@@ -1,0 +1,6 @@
+python-dotenv
+mysql-connector-python
+langchain
+langchain-google-genai
+#langgraph (if using LangGraph)
+langchain-core
