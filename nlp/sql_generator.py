@@ -6,7 +6,7 @@ genai.configure(api_key=GOOGLE_API_KEY)
 
 # Use a valid Gemini text-generation model
 MODEL_NAME = "models/gemini-flash-latest"
-
+# Function to generate SQL query from user input
 def generate_sql(user_input: str):
     prompt = BIKESTORE_PROMPT.format(user_query=user_input)
     try:
